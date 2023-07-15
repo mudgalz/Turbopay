@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html class="scroll-smooth" lang="en">
+
+<head>
+    <style> *,:before,:after{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb}:before,:after{--tw-content: ""}html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;-o-tab-size:4;tab-size:4;font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,"Apple Color Emoji","Segoe UI Emoji",Segoe UI Symbol,"Noto Color Emoji"}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,samp,pre{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-size:100%;font-weight:inherit;line-height:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}button,[type=button],[type=reset],[type=submit]{-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dl,dd,h1,h2,h3,h4,h5,h6,hr,figure,p,pre{margin:0}fieldset{margin:0;padding:0}legend{padding:0}ol,ul,menu{list-style:none;margin:0;padding:0}textarea{resize:vertical}input::-moz-placeholder,textarea::-moz-placeholder{opacity:1;color:#9ca3af}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}button,[role=button]{cursor:pointer}:disabled{cursor:default}img,svg,video,canvas,audio,iframe,embed,object{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}*,:before,:after{--tw-border-spacing-x: 0;--tw-border-spacing-y: 0;--tw-translate-x: 0;--tw-translate-y: 0;--tw-rotate: 0;--tw-skew-x: 0;--tw-skew-y: 0;--tw-scale-x: 1;--tw-scale-y: 1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness: proximity;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width: 0px;--tw-ring-offset-color: #fff;--tw-ring-color: rgb(59 130 246 / .5);--tw-ring-offset-shadow: 0 0 #0000;--tw-ring-shadow: 0 0 #0000;--tw-shadow: 0 0 #0000;--tw-shadow-colored: 0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }::-webkit-backdrop{--tw-border-spacing-x: 0;--tw-border-spacing-y: 0;--tw-translate-x: 0;--tw-translate-y: 0;--tw-rotate: 0;--tw-skew-x: 0;--tw-skew-y: 0;--tw-scale-x: 1;--tw-scale-y: 1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness: proximity;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width: 0px;--tw-ring-offset-color: #fff;--tw-ring-color: rgb(59 130 246 / .5);--tw-ring-offset-shadow: 0 0 #0000;--tw-ring-shadow: 0 0 #0000;--tw-shadow: 0 0 #0000;--tw-shadow-colored: 0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }::backdrop{--tw-border-spacing-x: 0;--tw-border-spacing-y: 0;--tw-translate-x: 0;--tw-translate-y: 0;--tw-rotate: 0;--tw-skew-x: 0;--tw-skew-y: 0;--tw-scale-x: 1;--tw-scale-y: 1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness: proximity;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width: 0px;--tw-ring-offset-color: #fff;--tw-ring-color: rgb(59 130 246 / .5);--tw-ring-offset-shadow: 0 0 #0000;--tw-ring-shadow: 0 0 #0000;--tw-shadow: 0 0 #0000;--tw-shadow-colored: 0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }.absolute{position:absolute}.relative{position:relative}.top-2{top:.5rem}.left-2{left:.5rem}.left-7{left:1.75rem}.left-12{left:3rem}.left-14{left:3.5rem}.bottom-10{bottom:2.5rem}.right-6{right:1.5rem}.bottom-4{bottom:1rem}.left-60{left:15rem}.bottom-9{bottom:2.25rem}.z-10{z-index:10}.z-0{z-index:0}.m-auto{margin:auto}.-m-7{margin:-1.75rem}.mx-48{margin-left:12rem;margin-right:12rem}.mx-20{margin-left:5rem;margin-right:5rem}.my-8{margin-top:2rem;margin-bottom:2rem}.mx-auto{margin-left:auto;margin-right:auto}.mb-2{margin-bottom:.5rem}.mt-8{margin-top:2rem}.mr-3{margin-right:.75rem}.mt-32{margin-top:8rem}.mt-4{margin-top:1rem}.mt-24{margin-top:6rem}.mb-6{margin-bottom:1.5rem}.ml-40{margin-left:10rem}.mt-16{margin-top:4rem}.mt-28{margin-top:7rem}.mt-7{margin-top:1.75rem}.ml-10{margin-left:2.5rem}.mt-10{margin-top:2.5rem}.mb-8{margin-bottom:2rem}.ml-8{margin-left:2rem}.mt-20{margin-top:5rem}.ml-6{margin-left:1.5rem}.mt-6{margin-top:1.5rem}.mt-3{margin-top:.75rem}.mb-14{margin-bottom:3.5rem}.mb-24{margin-bottom:6rem}.mb-5{margin-bottom:1.25rem}.mt-1{margin-top:.25rem}.mb-3{margin-bottom:.75rem}.mb-12{margin-bottom:3rem}.mt-12{margin-top:3rem}.mr-4{margin-right:1rem}.mb-10{margin-bottom:2.5rem}.mb-7{margin-bottom:1.75rem}.mt-2{margin-top:.5rem}.ml-11{margin-left:2.75rem}.block{display:block}.inline{display:inline}.flex{display:flex}.table{display:table}.grid{display:grid}.h-\[100vh\]{height:100vh}.h-\[130vh\]{height:130vh}.h-full{height:100%}.h-\[8rem\]{height:8rem}.h-\[90vh\]{height:90vh}.h-3{height:.75rem}.h-\[96\%\]{height:96%}.h-8{height:2rem}.h-\[90\%\]{height:90%}.h-fit{height:-webkit-fit-content;height:-moz-fit-content;height:fit-content}.h-auto{height:auto}.h-80{height:20rem}.h-11{height:2.75rem}.h-4{height:1rem}.w-\[80\%\]{width:80%}.w-\[60vw\]{width:60vw}.w-\[36rem\]{width:36rem}.w-full{width:100%}.w-\[60rem\]{width:60rem}.w-3{width:.75rem}.w-36{width:9rem}.w-2\/3{width:66.666667%}.w-1\/3{width:33.333333%}.w-8{width:2rem}.w-2\/6{width:33.333333%}.w-\[60\%\]{width:60%}.w-80{width:20rem}.w-10{width:2.5rem}.w-56{width:14rem}.w-\[29\%\]{width:29%}.w-2{width:.5rem}.w-5{width:1.25rem}.w-11{width:2.75rem}.w-4{width:1rem}.w-5\/12{width:41.666667%}.w-11\/12{width:91.666667%}.w-4\/6{width:66.666667%}.basis-1{flex-basis:.25rem}.basis-1\/2{flex-basis:50%}.cursor-pointer{cursor:pointer}.cursor-default{cursor:default}.resize{resize:both}.scroll-m-3{scroll-margin:.75rem}.grid-flow-col{grid-auto-flow:column}.grid-cols-3{grid-template-columns:repeat(3,minmax(0,1fr))}.flex-row{flex-direction:row}.flex-col{flex-direction:column}.items-center{align-items:center}.justify-center{justify-content:center}.justify-between{justify-content:space-between}.space-x-9>:not([hidden])~:not([hidden]){--tw-space-x-reverse: 0;margin-right:calc(2.25rem * var(--tw-space-x-reverse));margin-left:calc(2.25rem * calc(1 - var(--tw-space-x-reverse)))}.space-x-10>:not([hidden])~:not([hidden]){--tw-space-x-reverse: 0;margin-right:calc(2.5rem * var(--tw-space-x-reverse));margin-left:calc(2.5rem * calc(1 - var(--tw-space-x-reverse)))}.space-x-4>:not([hidden])~:not([hidden]){--tw-space-x-reverse: 0;margin-right:calc(1rem * var(--tw-space-x-reverse));margin-left:calc(1rem * calc(1 - var(--tw-space-x-reverse)))}.space-y-3>:not([hidden])~:not([hidden]){--tw-space-y-reverse: 0;margin-top:calc(.75rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(.75rem * var(--tw-space-y-reverse))}.space-y-10>:not([hidden])~:not([hidden]){--tw-space-y-reverse: 0;margin-top:calc(2.5rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(2.5rem * var(--tw-space-y-reverse))}.space-x-8>:not([hidden])~:not([hidden]){--tw-space-x-reverse: 0;margin-right:calc(2rem * var(--tw-space-x-reverse));margin-left:calc(2rem * calc(1 - var(--tw-space-x-reverse)))}.scroll-smooth{scroll-behavior:smooth}.rounded-lg{border-radius:.5rem}.rounded-full{border-radius:9999px}.rounded-xl{border-radius:.75rem}.rounded-md{border-radius:.375rem}.rounded-l-xl{border-top-left-radius:.75rem;border-bottom-left-radius:.75rem}.rounded-b-xl{border-bottom-right-radius:.75rem;border-bottom-left-radius:.75rem}.rounded-tl-xl{border-top-left-radius:.75rem}.border-2{border-width:2px}.border-b-2{border-bottom-width:2px}.border-r-2{border-right-width:2px}.border-b{border-bottom-width:1px}.border-transparent{border-color:transparent}.border-gray-500{--tw-border-opacity: 1;border-color:rgb(107 114 128 / var(--tw-border-opacity))}.border-b-gray-300{--tw-border-opacity: 1;border-bottom-color:rgb(209 213 219 / var(--tw-border-opacity))}.bg-blue-500{--tw-bg-opacity: 1;background-color:rgb(59 130 246 / var(--tw-bg-opacity))}.bg-black{--tw-bg-opacity: 1;background-color:rgb(0 0 0 / var(--tw-bg-opacity))}.bg-sky-600\/40{background-color:#0284c766}.bg-blue-300{--tw-bg-opacity: 1;background-color:rgb(147 197 253 / var(--tw-bg-opacity))}.bg-gray-300{--tw-bg-opacity: 1;background-color:rgb(209 213 219 / var(--tw-bg-opacity))}.bg-red-400{--tw-bg-opacity: 1;background-color:rgb(248 113 113 / var(--tw-bg-opacity))}.bg-yellow-500{--tw-bg-opacity: 1;background-color:rgb(234 179 8 / var(--tw-bg-opacity))}.bg-green-400{--tw-bg-opacity: 1;background-color:rgb(74 222 128 / var(--tw-bg-opacity))}.bg-gray-800{--tw-bg-opacity: 1;background-color:rgb(31 41 55 / var(--tw-bg-opacity))}.bg-gray-500{--tw-bg-opacity: 1;background-color:rgb(107 114 128 / var(--tw-bg-opacity))}.bg-white{--tw-bg-opacity: 1;background-color:rgb(255 255 255 / var(--tw-bg-opacity))}.bg-slate-100{--tw-bg-opacity: 1;background-color:rgb(241 245 249 / var(--tw-bg-opacity))}.bg-gray-400{--tw-bg-opacity: 1;background-color:rgb(156 163 175 / var(--tw-bg-opacity))}.bg-\[\#0f172a\]{--tw-bg-opacity: 1;background-color:rgb(15 23 42 / var(--tw-bg-opacity))}.bg-blue-600{--tw-bg-opacity: 1;background-color:rgb(37 99 235 / var(--tw-bg-opacity))}.bg-white\/80{background-color:#fffc}.bg-\[\#f8fafc\]{--tw-bg-opacity: 1;background-color:rgb(248 250 252 / var(--tw-bg-opacity))}.bg-opacity-20{--tw-bg-opacity: .2}.bg-\[url\(\'bgm\.jpg\'\)\]{background-image:url(./images/bgm.f5c5d027.jpg)}.bg-gradient-to-r{background-image:linear-gradient(to right,var(--tw-gradient-stops))}.from-sky-400{--tw-gradient-from: #38bdf8;--tw-gradient-to: rgb(56 189 248 / 0);--tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to)}.from-sky-500{--tw-gradient-from: #0ea5e9;--tw-gradient-to: rgb(14 165 233 / 0);--tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to)}.to-purple-500{--tw-gradient-to: #a855f7}.to-indigo-500{--tw-gradient-to: #6366f1}.bg-cover{background-size:cover}.fill-blue-400{fill:#60a5fa}.p-2{padding:.5rem}.p-5{padding:1.25rem}.p-4{padding:1rem}.p-8{padding:2rem}.p-3{padding:.75rem}.p-1{padding:.25rem}.px-1{padding-left:.25rem;padding-right:.25rem}.px-2{padding-left:.5rem;padding-right:.5rem}.px-24{padding-left:6rem;padding-right:6rem}.px-48{padding-left:12rem;padding-right:12rem}.py-2{padding-top:.5rem;padding-bottom:.5rem}.px-3{padding-left:.75rem;padding-right:.75rem}.py-1{padding-top:.25rem;padding-bottom:.25rem}.px-5{padding-left:1.25rem;padding-right:1.25rem}.px-20{padding-left:5rem;padding-right:5rem}.pt-24{padding-top:6rem}.pb-5{padding-bottom:1.25rem}.pb-24{padding-bottom:6rem}.pr-16{padding-right:4rem}.pt-20{padding-top:5rem}.pb-16{padding-bottom:4rem}.text-center{text-align:center}.text-xl{font-size:1.25rem;line-height:1.75rem}.text-sm{font-size:.875rem;line-height:1.25rem}.text-6xl{font-size:3.75rem;line-height:1}.text-5xl{font-size:3rem;line-height:1}.text-lg{font-size:1.125rem;line-height:1.75rem}.text-4xl{font-size:2.25rem;line-height:2.5rem}.text-xs{font-size:.75rem;line-height:1rem}.text-3xl{font-size:1.875rem;line-height:2.25rem}.text-2xl{font-size:1.5rem;line-height:2rem}.font-semibold{font-weight:600}.font-bold{font-weight:700}.leading-\[4\.5rem\]{line-height:4.5rem}.text-sky-500{--tw-text-opacity: 1;color:rgb(14 165 233 / var(--tw-text-opacity))}.text-gray-700{--tw-text-opacity: 1;color:rgb(55 65 81 / var(--tw-text-opacity))}.text-white{--tw-text-opacity: 1;color:rgb(255 255 255 / var(--tw-text-opacity))}.text-sky-400{--tw-text-opacity: 1;color:rgb(56 189 248 / var(--tw-text-opacity))}.text-black{--tw-text-opacity: 1;color:rgb(0 0 0 / var(--tw-text-opacity))}.text-blue-700{--tw-text-opacity: 1;color:rgb(29 78 216 / var(--tw-text-opacity))}.text-gray-600{--tw-text-opacity: 1;color:rgb(75 85 99 / var(--tw-text-opacity))}.text-gray-500{--tw-text-opacity: 1;color:rgb(107 114 128 / var(--tw-text-opacity))}.text-gray-400{--tw-text-opacity: 1;color:rgb(156 163 175 / var(--tw-text-opacity))}.text-gray-800{--tw-text-opacity: 1;color:rgb(31 41 55 / var(--tw-text-opacity))}.text-blue-600{--tw-text-opacity: 1;color:rgb(37 99 235 / var(--tw-text-opacity))}.shadow-lg{--tw-shadow: 0 10px 15px -3px rgb(0 0 0 / .1), 0 4px 6px -4px rgb(0 0 0 / .1);--tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000),var(--tw-ring-shadow, 0 0 #0000),var(--tw-shadow)}.drop-shadow-2xl{--tw-drop-shadow: drop-shadow(0 25px 25px rgb(0 0 0 / .15));filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.backdrop-blur-xl{--tw-backdrop-blur: blur(24px);-webkit-backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia)}.backdrop-blur-lg{--tw-backdrop-blur: blur(16px);-webkit-backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia)}.backdrop-sepia-0{--tw-backdrop-sepia: sepia(0);-webkit-backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia)}.transition-all{transition-property:all;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}.duration-100{transition-duration:.1s}.duration-200{transition-duration:.2s}.\[aJ\:\fffdI\fffd\\fffd F\~\fffd\fffd\779\fffd\fffd\fffd\0\fffdQ\39b\o9\\4f0\fffd\fffd\fffd\fffdN\fffd\fffd\\fffd 1\fffdN\\fffd\fffd\+h\fffd\^\6dc\fffdO\fffd\fffd\fffd\fffd\fffd\\fffd\fffd\]{a-j:\fffdI\fffd\fffd F~\fffd\fffd\779\fffd\fffd\fffd0\fffdQ\39bo9\4f0\fffd\fffd\fffd\fffdN\fffd\fffd\fffd 1\fffdN\fffd\fffd+h\fffd^\6dc\fffdO\fffd\fffd\fffd\fffd\fffd\fffd\fffd}.hover\:scale-110:hover{--tw-scale-x: 1.1;--tw-scale-y: 1.1;transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skew(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.hover\:scale-125:hover{--tw-scale-x: 1.25;--tw-scale-y: 1.25;transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skew(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.hover\:border-2:hover{border-width:2px}.hover\:border-gray-200:hover{--tw-border-opacity: 1;border-color:rgb(229 231 235 / var(--tw-border-opacity))}.hover\:border-cyan-400:hover{--tw-border-opacity: 1;border-color:rgb(34 211 238 / var(--tw-border-opacity))}.hover\:border-transparent:hover{border-color:transparent}.hover\:bg-gray-100:hover{--tw-bg-opacity: 1;background-color:rgb(243 244 246 / var(--tw-bg-opacity))}.hover\:bg-white:hover{--tw-bg-opacity: 1;background-color:rgb(255 255 255 / var(--tw-bg-opacity))}.hover\:bg-blue-300:hover{--tw-bg-opacity: 1;background-color:rgb(147 197 253 / var(--tw-bg-opacity))}.hover\:bg-inherit:hover{background-color:inherit}.hover\:bg-sky-500:hover{--tw-bg-opacity: 1;background-color:rgb(14 165 233 / var(--tw-bg-opacity))}.hover\:bg-red-500:hover{--tw-bg-opacity: 1;background-color:rgb(239 68 68 / var(--tw-bg-opacity))}.hover\:bg-rose-50:hover{--tw-bg-opacity: 1;background-color:rgb(255 241 242 / var(--tw-bg-opacity))}.hover\:bg-opacity-20:hover{--tw-bg-opacity: .2}.hover\:text-blue-500:hover{--tw-text-opacity: 1;color:rgb(59 130 246 / var(--tw-text-opacity))}.hover\:text-white:hover{--tw-text-opacity: 1;color:rgb(255 255 255 / var(--tw-text-opacity))}.hover\:text-black:hover{--tw-text-opacity: 1;color:rgb(0 0 0 / var(--tw-text-opacity))}.hover\:underline:hover{-webkit-text-decoration-line:underline;text-decoration-line:underline}.hover\:opacity-80:hover{opacity:.8}.hover\:opacity-90:hover{opacity:.9}.focus\:bg-inherit:focus{background-color:inherit}.focus\:outline-blue-500:focus{outline-color:#3b82f6}.active\:scale-75:active{--tw-scale-x: .75;--tw-scale-y: .75;transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skew(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}</style>
+</head>
+
+<body>
+
+    <div class="1 h-[100vh] w-[80%] m-auto mb-2">
+        <header class="flex justify-between mt-8 items-center">
+            <div class="left flex space-x-9">
+                <div class="mr-3"><span class="text-sky-500 font-semibold text-xl">Turbo</span><span
+                        class="font-semibold text-xl">Pay</span></div>
+                <a class="text-gray-700 hover:scale-110 hover:bg-gray-100 scroll-m-3 rounded-lg px-1 duration-100 active:scale-75" href="#feat">Features</a>
+                <a class="text-gray-700 hover:scale-110 hover:bg-gray-100 rounded-lg px-1 duration-100 active:scale-75" href="#test">Testimonials</a>
+                <a class="text-gray-700 hover:scale-110 hover:bg-gray-100 rounded-lg px-1 duration-100 active:scale-75" href="#prc">Pricing</a>
+            </div>
+            <div class="right flex space-x-10 items-center">
+                <a href="signup.html" class="hover:text-blue-500 hover:underline hover:scale-110 duration-100">Sign
+                    in</a>
+                <button onclick="window.location.href='signup.html'"
+                    class="p-2 px-2 rounded-full text-white duration-200 hover:scale-110 hover:bg-white border-2 border-transparent hover:border-2 hover:border-gray-200 hover:text-blue-500 bg-blue-500 text-sm font-semibold">Get
+                    started today</button>
+            </div>
+        </header>
+
+        <div class="flex-col text-center flex justify-center w-[60vw] m-auto items-center mt-32">
+            <h2 class="px-24 text-6xl leading-[4.5rem] font-semibold">Accounting <span class="text-sky-500">made
+                    simple</span> for small business.</h2>
+            <p class="px-48 mt-4">Most bookkeeping software is accurate, but hard to use. We make the opposite
+                trade-off, and hope you don't get audited.</p>
+
+            <div class="flex flex-row items-center mt-8 space-x-4">
+                <a class="bg-black py-2 hover:scale-110 duration-100 px-3 text-sm font-semibold rounded-full text-white"
+                    href="signup.html">Get 6 months free</a>
+                <a class="py-1 px-3 rounded-full hover:scale-110 duration-100 border-2"
+                    href="https://youtu.be/b6pomaq30Gg"><svg class="inline" width="1.5em" height="1.5em"
+                        preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
+                        <path fill="blue" d="M7 6v12l10-6z" />
+                    </svg>Watch video</a>
+            </div>
+        </div>
+
+        <div class="flex flex-col justify-center items-center mt-24">
+            <p class="font-semibold">Trusted by these companies so far</p>
+            <img src="./images/ftr.84b75eed.png" alt="">
+        </div>
+    </div>
+
+    <div id="feat" class="2 bg-[url('bgm.jpg')] bg-cover h-[130vh] ">
+        <div class="backdrop-sepia-0 bg-sky-600/40 backdrop-blur-xl text-white h-full">
+            <div class="flex flex-col justify-center items-center">
+                <p class="mt-24 text-5xl mb-6">Everything you need to run your books.</p>
+                <p>Well everything you need if you aren't that picky about minor details like tax compilance.</p>
+            </div>
+
+            <div class="flex flex-row ml-40 mt-16">
+                <div class="flex flex-col w-[36rem] mt-28">
+                    <div class="bg-opacity-20 bg-blue-300 duration-200 cursor-pointer rounded-xl p-5 h-[8rem] w-full ">
+                        <p class="text-lg mb-2">Payroll</p>
+                        <p class="text-sm">Keep track of everyone's salaries and whether or not they've been paid.
+                            Direct deposit not supported.</p>
+                    </div>
+                    <div
+                        class="hover:bg-opacity-20 hover:bg-blue-300 duration-200 cursor-pointer rounded-xl p-5 h-[8rem] w-full ">
+                        <p class="text-lg mb-2">Claim expenses</p>
+                        <p class="text-sm">All your receipts organized into one place, as long as you don't mind typing
+                            in the data by hand.</p>
+                    </div>
+                    <div
+                        class="hover:bg-opacity-20 hover:bg-blue-300 duration-200 cursor-pointer rounded-xl p-5 h-[8rem] w-full ">
+                        <p class="text-lg mb-2">VAT handling</p>
+                        <p class="text-sm">We only sell our software to companies who don't deal with VAT ar all, so
+                            technically we do all the VAT stuff they need.</p>
+                    </div>
+                    <div
+                        class="hover:bg-opacity-20 hover:bg-blue-300 duration-200 cursor-pointer rounded-xl p-5 h-[8rem] w-full ">
+                        <p class="text-lg mb-2">Reporting</p>
+                        <p class="text-sm">Easily export your data into an Excel spreadsheet where you can do whatever
+                            the hell you want with it.</p>
+                    </div>
+                </div>
+                <div class="bg-gray-300 h-[90vh] flex relative justify-center items-center rounded-l-xl w-[60rem]">
+                    <div class="absolute top-2 left-2 rounded-full w-3 h-3 bg-red-400"></div>
+                    <div class="absolute top-2 left-7 rounded-full w-3 h-3 bg-yellow-500"></div>
+                    <div class="absolute top-2 left-12 rounded-full w-3 h-3 bg-green-400"></div>
+                    <div class="bg-gray-800 w-full flex justify-between rounded-b-xl mt-7 h-[96%]">
+                        <div class="flex flex-col ml-10 space-y-3 mt-10">
+                            <a href="#" class="mb-8 ml-8 text-lg"><span
+                                    class="text-sky-400 font-semibold cursor-pointer">Turbo</span>Pay</a>
+                            <a class="cursor-default">Overview</a>
+                            <a class="cursor-default" >Contacts</a>
+                            <a class="cursor-default" >Bills</a>
+                            <a class="cursor-default" >Expenses</a>
+                            <a class="cursor-default" >Banking</a>
+                            <a class="cursor-default" >Taxes</a>
+                            <a class="text-sky-400" href="#">Accounting</a>
+                            <a class="w-36 left-14 h-8 rounded-full bg-gray-500 absolute px-5 py-1 bottom-10 cursor-pointer">Werframe, Inc</a>
+                        </div>
+
+                        <div class="w-2/3 text-black flex flex-col h-[90%] bg-white mt-16 rounded-tl-xl">
+                            <div class="font-semibold p-5 border-b-2">Payroll</div>
+                            <div class="grid grid-flow-col grid-cols-3">
+                                <div class="border-b-2 border-b-gray-300 border-r-2  h-fit p-2 px-5">Name</div>
+                                <div class="border-b-2 border-b-gray-300 border-r-2 h-fit p-2 px-5">Total pay</div>
+                                <div class="border-b-2 border-b-gray-300 h-fit p-2 px-5">Tax</div>
+                            </div>
+                            <div class="grid grid-flow-col grid-cols-3">
+                                <div class="border-b-2 h-fit p-2 px-5">Bob Drew</div>
+                                <div class="border-b-2 h-fit p-2 px-5">$1,500.00</div>
+                                <div class="border-b-2 h-fit p-2 px-5">$200.00</div>
+                            </div>
+                            <div class="grid grid-flow-col bg-slate-100 grid-cols-3">
+                                <div class="border-b-2 h-fit p-2 px-5">Frank</div>
+                                <div class="border-b-2 h-fit p-2 px-5">$1,900.00</div>
+                                <div class="border-b-2 h-fit p-2 px-5">$150.00</div>
+                            </div>
+                            <div class="grid grid-flow-col grid-cols-3">
+                                <div class="border-b-2 h-fit p-2 px-5">Darryl</div>
+                                <div class="border-b-2 h-fit p-2 px-5">$2,700.00</div>
+                                <div class="border-b-2 h-fit p-2 px-5">$210.00</div>
+                            </div>
+                            <div class="grid grid-flow-col bg-slate-100 grid-cols-3">
+                                <div class="border-b-2 h-fit p-2 px-5">Robert</div>
+                                <div class="border-b-2 h-fit p-2 px-5">$500.00</div>
+                                <div class="border-b-2 h-fit p-2 px-5">$95.00</div>
+                            </div>
+                            <div class="grid grid-flow-col grid-cols-3">
+                                <div class="border-b-2 h-fit p-2 px-5">Freya</div>
+                                <div class="border-b-2 h-fit p-2 px-5">$4,300.00</div>
+                                <div class="border-b-2 h-fit p-2 px-5">$400.00</div>
+                            </div>
+                            <div class="grid grid-flow-col bg-slate-100 grid-cols-3">
+                                <div class="border-b-2 h-fit p-2 px-5">Carl</div>
+                                <div class="border-b-2 h-fit p-2 px-5">$1000.00</div>
+                                <div class="border-b-2 h-fit p-2 px-5">$200.00</div>
+                            </div>
+                            <div class="grid grid-flow-col grid-cols-3">
+                                <div class="border-b-2 h-fit p-2 px-5">Unknown</div>
+                                <div class="border-b-2 h-fit p-2 px-5">$2,300.00</div>
+                                <div class="border-b-2 h-fit p-2 px-5">$300.00</div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="test" class="3 w-[80%] m-auto">
+
+        <div  class="flex flex-col w-[60vw] m-auto text-center pt-24">
+            <p class="font-semibold text-4xl">Simplify everyday business tasks.</p>
+            <p class="mx-48 mt-4">Because you'd probably be a little confused if we suggest you complicate your everyday
+                business tasks instead.</p>
+        </div>
+
+        <div class="flex flex-row mt-20">
+
+            <div class="flex flex-col w-1/3 h-auto">
+                <div class="h-8 ml-6 w-8 bg-blue-500 rounded-md"><svg xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 14 14">
+                        <path
+                            d="M.5,7.08H2.69a.52.52,0,0,0,.45-.27l1.8-3.6a.49.49,0,0,1,.49-.27.48.48,0,0,1,.43.35l2.23,7.42a.5.5,0,0,0,.46.36A.5.5,0,0,0,9,10.75L10.37,7.4a.51.51,0,0,1,.47-.32H13.5"
+                            fill="none" stroke="#fcfcfc" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg>
+                </div>
+                <h5 class="mt-6 ml-6 text-sm text-blue-700 font-semibold">Reporting</h5>
+                <p class="mt-3 ml-6 text-lg">Stay on top of things with always up-to-date reporting features.</p>
+                <p class="mt-3 ml-6 text-gray-600 text-sm">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Blanditiis dolorum nisi omnis repudiandae Lorem ipsum dolor sit. quod porro.</p>
+            </div>
+
+            <div class="flex flex-col w-1/3 h-auto">
+                <div class="h-8 ml-6 w-8 flex justify-center items-center bg-gray-400 rounded-md"><svg
+                        xmlns="http://www.w3.org/2000/svg" viewBox="-0.25 -0.25 14.5 14.5" height="24" width="24"
+                        stroke-width="1.5">
+                        <g>
+                            <line x1="13.5" y1="2" x2="0.5" y2="2" fill="none" stroke="#ffffff" stroke-linecap="round"
+                                stroke-linejoin="round"></line>
+                            <line x1="13.5" y1="7" x2="0.5" y2="7" fill="none" stroke="#ffffff" stroke-linecap="round"
+                                stroke-linejoin="round"></line>
+                            <line x1="13.5" y1="12" x2="0.5" y2="12" fill="none" stroke="#ffffff" stroke-linecap="round"
+                                stroke-linejoin="round"></line>
+                        </g>
+                    </svg>
+                </div>
+                <h5 class="mt-6 ml-6 text-sm text-gray-500 font-semibold">Inventory</h5>
+                <p class="mt-3 ml-6 text-lg">Never lose track of what's in stock with accurate inventory tracking.</p>
+                <p class="mt-3 ml-6 text-gray-600 text-sm">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Blanditiis dolorum nisi omnis repudiandae Lorem ipsum dolor sit. quod porro.</p>
+            </div>
+
+            <div class="flex flex-col w-1/3 h-auto">
+                <div class="h-8 ml-6 w-8 bg-gray-400 flex justify-center items-center rounded-md"><svg
+                        xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em"
+                        preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
+                        <g fill="none">
+                            <path d="M0 0h24v24H0z" />
+                            <path fill="white"
+                                d="M15 14a5 5 0 0 1 4.995 4.783L20 19v1a2 2 0 0 1-1.85 1.995L18 22H4a2 2 0 0 1-1.995-1.85L2 20v-1a5 5 0 0 1 4.783-4.995L7 14h8Zm6-1a1 1 0 1 1 0 2h-1a1 1 0 1 1 0-2h1ZM11 2a5 5 0 1 1 0 10a5 5 0 0 1 0-10Zm10 8a1 1 0 1 1 0 2h-2a1 1 0 1 1 0-2h2Zm0-3a1 1 0 0 1 .117 1.993L21 9h-3a1 1 0 0 1-.117-1.993L18 7h3Z" />
+                        </g>
+                    </svg>
+                </div>
+                <h5 class="mt-6 ml-6 text-sm text-gray-500 font-semibold">Contacts</h5>
+                <p class="mt-3 ml-6 text-lg">Organize all your contacts, service providers, and invoices in one place.
+                </p>
+                <p class="mt-3 ml-6 text-gray-600 text-sm">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Blanditiis dolorum nisi omnis repudiandae Lorem ipsum dolor sit. quod porro. Lorem ipsum dolor sit
+                    amet, consectetur adipisicing elit. Odio laborum qui provident.</p>
+            </div>
+
+        </div>
+
+        <img class="mt-10 mb-14" src="./images/table.46c02f56.png" alt="">
+
+    </div>
+
+    <div class="4 h-80 flex flex-col items-center bg-gradient-to-r from-sky-400 to-purple-500 w-full">
+        <h3 class="text-4xl font-semibold mt-16 text-white">Get started today</h3>
+        <p class="mt-6 text-white w-2/6 text-center">It's time to take control of your books. Buy our software so you
+            can feel like you're doing something productive.</p>
+        <a class="bg-white py-2 hover:scale-125 hover:border-cyan-400 duration-100 px-3 hover:border-2 hover:bg-inherit text-sm font-semibold rounded-full border-2 hover:text-white mt-10 border-transparent"
+            href="signup.html">Get 6 months free</a>
+    </div>
+
+    <div class="5 w-[80%] m-auto">
+        <div class="flex w-[60%] m-auto flex-col text-center mt-24">
+            <h4 class="text-4xl font-semibold">Loved by businesses worldwide</h4>
+            <p class="mx-20 mt-4">Our software is so simple that people can't help but fall in love with it. Simplicity
+                is easy when you just skip tons of mission-critical features.</p>
+        </div>
+
+        <div class="cards">
+            <div class="row flex flex-row justify-center space-x-10 mt-16 mb-24">   
+                
+                <div class="flex flex-col space-y-10 ">
+
+                    <div class="flex flex-col p-4 w-80 hover:scale-110 duration-200  hover:bg-sky-500 hover:text-white rounded-lg bg-white drop-shadow-2xl shadow-lg">
+                        <p class="mb-5 pb-5 border-b">TurboPay is so easy to use I can't help but wonder if it's really doing the things the government expects me to do.</p>
+                        <span class="font-semibold">Sheryl Berge</span>
+                        <span class="text-gray-400 text-xs mt-1">CEO at Lynch LLC</span>
+                        <img src="./images/pfp.f3ff1571.png" class="w-10 right-6 bottom-4 absolute">
+                    </div>
+
+                    <div class="flex flex-col p-4 w-80  hover:scale-110 duration-200  hover:bg-sky-500 hover:text-white rounded-lg bg-white drop-shadow-2xl shadow-lg">
+                        <p class="mb-5 pb-5 border-b">I'm trying to get a hold of someone in support, I'm in a lot of trouble right now and they are saying it has something to do with my books. Please get back to me right away.</p>
+                        <span class="font-semibold">Amy Hahn</span>
+                        <span class="text-gray-400 text-xs mt-1">Director ar Velocity Industries</span>
+                        <img src="./images/pfp.f3ff1571.png" class="w-10 right-6 bottom-4 absolute">
+                    </div>
+
+                </div>
+
+                <div class="flex flex-col space-y-10 ">
+
+                    <div class="flex flex-col p-4 w-80 hover:scale-110 duration-200  hover:bg-sky-500 hover:text-white rounded-lg bg-white drop-shadow-2xl shadow-lg">
+                        <p class="mb-5 pb-5 border-b">The best part about TurboPay is every time I pay, my employees, my bank balance doesn't go down like it used to. Looking forward to spending this extra cash when I figure out why my card is being declined.</p>
+                        <span class="font-semibold">Leland Kiehn</span>
+                        <span class="text-gray-400 text-xs mt-1">Founder of Kiehn and Sons</span>
+                        <img src="./images/pfp.f3ff1571.png" class="w-10 right-6 bottom-4 absolute">
+                    </div>
+
+                    <div class="flex flex-col p-4 w-80 hover:scale-110 duration-200  hover:bg-sky-500 hover:text-white rounded-lg bg-white drop-shadow-2xl shadow-lg">
+                        <p class="mb-5 pb-5 border-b">There are so many things I had to do with my old software that I just don't do at all with TurboPay. Suspicious but I can't say I don't love it.</p>
+                        <span class="font-semibold">Erin Powlowski</span>
+                        <span class="text-gray-400 text-xs mt-1">COO at Armstrong Inc</span>
+                        <img src="./images/pfp.f3ff1571.png" class="w-10 right-6 bottom-4 absolute">
+                    </div>
+
+                </div>
+
+                <div class="flex flex-col space-y-10 ">
+
+                    <div class="flex flex-col p-4 w-80 hover:scale-110 duration-200  hover:bg-sky-500 hover:text-white rounded-lg bg-white drop-shadow-2xl shadow-lg">
+                        <p class="mb-5 pb-5 border-b">I used to have to remit tax to the EU and with TurboPay I somehow don't have to do that anymore. Nervous to travel there now though.</p>
+                        <span class="font-semibold">Frank Drew</span>
+                        <span class="text-gray-400 text-xs mt-1">Founder of West Inc</span>
+                        <img src="./images/pfp.f3ff1571.png" class="w-10 right-6 bottom-4 absolute">
+                    </div>
+
+                    <div class="flex flex-col p-4 w-80 hover:scale-110 duration-200  hover:bg-red-500 hover:text-white rounded-lg bg-white drop-shadow-2xl shadow-lg">
+                        <p class="mb-5 pb-5 border-b">This is the fourth email I've sent to your support team. I am totally being held in jail for tax fraud. Please answer your damn emails, this is important.</p>
+                        <span class="font-semibold">Unknown</span>
+                        <span class="text-gray-400 text-xs mt-1">Null</span>
+                        <img src="./images/pfp.f3ff1571.png" class="w-10 right-6 bottom-4 absolute">
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div id="prc" class="6 bg-[#0f172a] h-auto">
+        <div class="flex flex-col text-white w-[60vw] m-auto text-center">
+            <p class="text-4xl mt-24 z-10 mb-5">Simple pricing, for everyone.</p>
+            <svg aria-hidden="false" viewBox="0 0 281 40" class="h-8 left-60 z-0 w-56 relative bottom-9 fill-blue-400" preserveAspectRatio="none"><path fill-rule="evenodd" clip-rule="evenodd" d="M240.172 22.994c-8.007 1.246-15.477 2.23-31.26 4.114-18.506 2.21-26.323 2.977-34.487 3.386-2.971.149-3.727.324-6.566 1.523-15.124 6.388-43.775 9.404-69.425 7.31-26.207-2.14-50.986-7.103-78-15.624C10.912 20.7.988 16.143.734 14.657c-.066-.381.043-.344 1.324.456 10.423 6.506 49.649 16.322 77.8 19.468 23.708 2.65 38.249 2.95 55.821 1.156 9.407-.962 24.451-3.773 25.101-4.692.074-.104.053-.155-.058-.135-1.062.195-13.863-.271-18.848-.687-16.681-1.389-28.722-4.345-38.142-9.364-15.294-8.15-7.298-19.232 14.802-20.514 16.095-.934 32.793 1.517 47.423 6.96 13.524 5.033 17.942 12.326 11.463 18.922l-.859.874.697-.006c2.681-.026 15.304-1.302 29.208-2.953 25.845-3.07 35.659-4.519 54.027-7.978 9.863-1.858 11.021-2.048 13.055-2.145a61.901 61.901 0 0 0 4.506-.417c1.891-.259 2.151-.267 1.543-.047-.402.145-2.33.913-4.285 1.707-4.635 1.882-5.202 2.07-8.736 2.903-3.414.805-19.773 3.797-26.404 4.829Zm40.321-9.93c.1-.066.231-.085.29-.041.059.043-.024.096-.183.119-.177.024-.219-.007-.107-.079ZM172.299 26.22c9.364-6.058 5.161-12.039-12.304-17.51-11.656-3.653-23.145-5.47-35.243-5.576-22.552-.198-33.577 7.462-21.321 14.814 12.012 7.205 32.994 10.557 61.531 9.831 4.563-.116 5.372-.288 7.337-1.559Z"></path></svg>
+            <p class="text-gray-400 -m-7">It doesn't matter what size your business is, our software won't work well for you.</p>
+        </div>
+
+        <div class="flex flex-row w-[80%] justify-center m-auto mt-24 pb-24 space-x-8">
+            <div class="w-[29%] pr-16 p-8 text-white rounded-lg">
+                <h3 class="text-4xl mb-5 font-bold">$9</h3>
+                <p class="mb-3 font-semibold">Starter</p>
+                <p class="text-gray-400 text-sm mb-12">Good for anyone who is self-employed and just getting started</p>
+                <a class="border-2 border-gray-500 rounded-full px-20 py-2 hover:border-transparent hover:bg-white hover:text-black transition-all" href="signup.html">Get started</a>
+                <div class="text-sm flex flex-col space-y-3 mt-12">
+                    <p><svg class="inline mr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14" height="16" width="16"><g><path d="M4,8,6.05,9.64a.48.48,0,0,0,.4.1.5.5,0,0,0,.34-.24L10,4" fill="none" stroke="#939393" stroke-linecap="round" stroke-linejoin="round"></path><circle cx="7" cy="7" r="6.5" fill="none" stroke="#939393" stroke-linecap="round" stroke-linejoin="round"></circle></g></svg>Send 10 quotes and invoices</p>
+                    <p><svg class="inline mr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14" height="16" width="16"><g><path d="M4,8,6.05,9.64a.48.48,0,0,0,.4.1.5.5,0,0,0,.34-.24L10,4" fill="none" stroke="#939393" stroke-linecap="round" stroke-linejoin="round"></path><circle cx="7" cy="7" r="6.5" fill="none" stroke="#939393" stroke-linecap="round" stroke-linejoin="round"></circle></g></svg>Connect up to 2 bank accounts</p>
+                    <p><svg class="inline mr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14" height="16" width="16"><g><path d="M4,8,6.05,9.64a.48.48,0,0,0,.4.1.5.5,0,0,0,.34-.24L10,4" fill="none" stroke="#939393" stroke-linecap="round" stroke-linejoin="round"></path><circle cx="7" cy="7" r="6.5" fill="none" stroke="#939393" stroke-linecap="round" stroke-linejoin="round"></circle></g></svg>Track up to 15 expenses per month</p>
+                    <p><svg class="inline mr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14" height="16" width="16"><g><path d="M4,8,6.05,9.64a.48.48,0,0,0,.4.1.5.5,0,0,0,.34-.24L10,4" fill="none" stroke="#939393" stroke-linecap="round" stroke-linejoin="round"></path><circle cx="7" cy="7" r="6.5" fill="none" stroke="#939393" stroke-linecap="round" stroke-linejoin="round"></circle></g></svg>Mannual payroll support</p>
+                    <p><svg class="inline mr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14" height="16" width="16"><g><path d="M4,8,6.05,9.64a.48.48,0,0,0,.4.1.5.5,0,0,0,.34-.24L10,4" fill="none" stroke="#939393" stroke-linecap="round" stroke-linejoin="round"></path><circle cx="7" cy="7" r="6.5" fill="none" stroke="#939393" stroke-linecap="round" stroke-linejoin="round"></circle></g></svg>Export up to 3 reports</p>
+                </div>    
+            </div>
+
+            <div class="w-[29%] pr-16 p-8 bg-blue-600 text-white rounded-lg">
+                <h3 class="text-4xl mb-5 font-bold">$15</h3>
+                <p class="mb-3 font-semibold">Small business</p>
+                <p class=" text-sm mb-12">Perfect for small/medium sized businesses</p>
+                <a class=" bg-white text-black font-semibold rounded-full hover:opacity-80 transition-all px-20 py-2" href="signup.html">Get started</a>
+                <div class="text-sm flex flex-col space-y-3 mt-12">
+                    <p><svg class="inline mr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14" height="16" width="16"><g><path d="M4,8,6.05,9.64a.48.48,0,0,0,.4.1.5.5,0,0,0,.34-.24L10,4" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"></path><circle cx="7" cy="7" r="6.5" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"></circle></g></svg>Send 25 quotes and invoices</p>
+                    <p><svg class="inline mr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14" height="16" width="16"><g><path d="M4,8,6.05,9.64a.48.48,0,0,0,.4.1.5.5,0,0,0,.34-.24L10,4" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"></path><circle cx="7" cy="7" r="6.5" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"></circle></g></svg>Connect up to 5 bank accounts</p>
+                    <p><svg class="inline mr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14" height="16" width="16"><g><path d="M4,8,6.05,9.64a.48.48,0,0,0,.4.1.5.5,0,0,0,.34-.24L10,4" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"></path><circle cx="7" cy="7" r="6.5" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"></circle></g></svg>Track up to 50 expenses per month</p>
+                    <p><svg class="inline mr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14" height="16" width="16"><g><path d="M4,8,6.05,9.64a.48.48,0,0,0,.4.1.5.5,0,0,0,.34-.24L10,4" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"></path><circle cx="7" cy="7" r="6.5" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"></circle></g></svg>Automated payroll support</p>
+                    <p><svg class="inline mr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14" height="16" width="16"><g><path d="M4,8,6.05,9.64a.48.48,0,0,0,.4.1.5.5,0,0,0,.34-.24L10,4" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"></path><circle cx="7" cy="7" r="6.5" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"></circle></g></svg>Export up to 12 reports</p>
+                    <p><svg class="inline mr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14" height="16" width="16"><g><path d="M4,8,6.05,9.64a.48.48,0,0,0,.4.1.5.5,0,0,0,.34-.24L10,4" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"></path><circle cx="7" cy="7" r="6.5" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"></circle></g></svg>Bulk reconcile transactions</p>
+                    <p><svg class="inline mr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14" height="16" width="16"><g><path d="M4,8,6.05,9.64a.48.48,0,0,0,.4.1.5.5,0,0,0,.34-.24L10,4" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"></path><circle cx="7" cy="7" r="6.5" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"></circle></g></svg>Track in multiple currencies</p>
+                </div>   
+            </div>
+
+            <div class="w-[29%] pr-16 p-8 text-white rounded-lg">
+                <h3 class="text-4xl mb-5 font-bold">$39</h3>
+                <p class="mb-3 font-semibold">Enterprise</p>
+                <p class="text-gray-400 text-sm mb-12">For even the biggest enterprise companies.</p>
+                <a class="border-2 border-gray-500 rounded-full px-20 py-2 hover:border-transparent hover:bg-white hover:text-black transition-all" href="signup.html">Get started</a>
+                <div class="text-sm flex flex-col space-y-3 mt-12">
+                    <p><svg class="inline mr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14" height="16" width="16"><g><path d="M4,8,6.05,9.64a.48.48,0,0,0,.4.1.5.5,0,0,0,.34-.24L10,4" fill="none" stroke="#939393" stroke-linecap="round" stroke-linejoin="round"></path><circle cx="7" cy="7" r="6.5" fill="none" stroke="#939393" stroke-linecap="round" stroke-linejoin="round"></circle></g></svg>Send unlimited quotes and invoices</p>
+                    <p><svg class="inline mr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14" height="16" width="16"><g><path d="M4,8,6.05,9.64a.48.48,0,0,0,.4.1.5.5,0,0,0,.34-.24L10,4" fill="none" stroke="#939393" stroke-linecap="round" stroke-linejoin="round"></path><circle cx="7" cy="7" r="6.5" fill="none" stroke="#939393" stroke-linecap="round" stroke-linejoin="round"></circle></g></svg>Connect up to 15 bank accounts</p>
+                    <p><svg class="inline mr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14" height="16" width="16"><g><path d="M4,8,6.05,9.64a.48.48,0,0,0,.4.1.5.5,0,0,0,.34-.24L10,4" fill="none" stroke="#939393" stroke-linecap="round" stroke-linejoin="round"></path><circle cx="7" cy="7" r="6.5" fill="none" stroke="#939393" stroke-linecap="round" stroke-linejoin="round"></circle></g></svg>Track up to 200 expenses per month</p>
+                    <p><svg class="inline mr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14" height="16" width="16"><g><path d="M4,8,6.05,9.64a.48.48,0,0,0,.4.1.5.5,0,0,0,.34-.24L10,4" fill="none" stroke="#939393" stroke-linecap="round" stroke-linejoin="round"></path><circle cx="7" cy="7" r="6.5" fill="none" stroke="#939393" stroke-linecap="round" stroke-linejoin="round"></circle></g></svg>Automated payroll support</p>
+                    <p><svg class="inline mr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14" height="16" width="16"><g><path d="M4,8,6.05,9.64a.48.48,0,0,0,.4.1.5.5,0,0,0,.34-.24L10,4" fill="none" stroke="#939393" stroke-linecap="round" stroke-linejoin="round"></path><circle cx="7" cy="7" r="6.5" fill="none" stroke="#939393" stroke-linecap="round" stroke-linejoin="round"></circle></g></svg>Export up to 25 reports.</p>
+                </div>    
+            </div>
+
+        </div>
+    </div>
+
+    <div class="7 bg-[url('bgm.jpg')] w-full h-auto">
+        <div class="w-full h-full backdrop-blur-lg bg-white/80">
+            <div class="w-[80%] h-auto m-auto pt-20">
+                <h3 class="text-4xl">Frequently asked questions</h3>
+                <p class="mt-6">If you can't find what you're Looking for, email our support team and if you're <br> lucky someone will get back to you.</p>
+                <div class=" grid grid-cols-3 mt-16 mb-10">
+                    <div class="flex flex-col w-full p-3">
+                        <p class="font-semibold">Does TurboPay handle VAT?</p>
+                        <p class="text-sm mt-3 mb-7 text-gray-800">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam blanditiis facilis perferendis rerum odit.</p>
+                        <p class="font-semibold">Can I pay for my subscription via purchase order?</p>
+                        <p class="text-sm mt-3 mb-7 text-gray-800">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit, voluptatem mollitia!</p>
+                        <p class="font-semibold">How do I apply at TurboPay for a job?</p>
+                        <p class="text-sm mt-3 mb-7 text-gray-800">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum accusantium numquam impedit maxime dolore quae libero reprehenderit.</p>
+                    </div>
+                    <div class="flex flex-col w-full p-3">
+                        <p class="font-semibold">What was that testimonial about Tax fraud about all?</p>
+                        <p class="text-sm mt-3 mb-7 text-gray-800">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis qui quis minima!</p>
+                        <p class="font-semibold">TurboPay sounds horrible but why I still feel compelled to purchase?</p>
+                        <p class="text-sm mt-3 mb-7 text-gray-800">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit praesentium repellat vel nihil tempore perferendis minus quo sunt quis quibusdam.!</p>
+                        <p class="font-semibold">I found other companies called TurboPay, are you sure you can use this name?</p>
+                        <p class="text-sm mt-3 mb-7 text-gray-800">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis, enim odit! Deleniti provident vero quae rem dolor est eveniet perferendis cupiditate.</p>
+                    </div>
+                    <div class="flex flex-col w-full p-3">
+                        <p class="font-semibold">How do you generate reports?</p>
+                        <p class="text-sm mt-3 mb-7 text-gray-800">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum assumenda saepe corrupti repudiandae, error accusamus dolore similique sed harum, rerum est! Amet ipsam deserunt esse recusandae saepe.</p>
+                        <p class="font-semibold">Can we expect more inventory features?</p>
+                        <p class="text-sm mt-3 mb-7 text-gray-800">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore, quaerat placeat.</p>
+                        <p class="font-semibold">I lost my password, how do I get into my account?</p>
+                        <p class="text-sm mt-3 mb-7 text-gray-800">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, non? Nesciunt obcaecati inventore similique neque ea, aut fugiat provident eligendi autem nisi.</p>
+                    </div>
+                </div>
+
+                <div class="cursor-pointer text-center"><span class="text-sky-500 font-semibold text-3xl">Turbo</span><span
+                    class="font-semibold text-3xl">Pay</span></div>
+                    <div class="flex justify-center space-x-10 mt-12 pb-16 items-center">
+                        <a class="p-1 px-2 hover:bg-rose-50 rounded-lg" href="#feat">Features</a>
+                        <a class="p-1 px-2 hover:bg-rose-50 rounded-lg" href="#test">Testimonials</a>
+                        <a class="p-1 px-2 hover:bg-rose-50 rounded-lg" href="#prc">Pricing</a>
+                    </div>
+            </div>
+            
+        </div>
+
+    </div>
+</body>
+
+</html>
